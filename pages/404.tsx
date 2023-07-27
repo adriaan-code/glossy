@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function NotFound() {
   return (
     <main className="h-screen w-full flex flex-col justify-center items-center bg-[#1A2238]">
@@ -8,7 +10,7 @@ export default function NotFound() {
         Nie znaleziono strony
       </div>
       <button className="mt-5">
-        <a
+        <Link
           href="/"
           className="relative inline-block text-sm font-medium text-pink-200 group active:text-pink-200 focus:outline-none focus:ring"
         >
@@ -17,7 +19,7 @@ export default function NotFound() {
           <span className="relative block px-8 py-3 bg-[#1A2238] border border-current">
             Powrót
           </span>
-        </a>
+        </Link>
       </button>
     </main>
   );
