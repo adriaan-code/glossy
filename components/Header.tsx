@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Header = () => {
   return (
     <div>
@@ -9,30 +11,33 @@ const Header = () => {
         </div>
 
         <div className="items-center hidden space-x-8 lg:flex">
-          <a
-            href="#"
+          <Link
+            href="/#"
             className="flex text-gray-600 hover:text-pink-500 cursor-pointer transition delay-150 hover:font-semibold hover:-translate-y-1 hover:scale-110"
           >
             Home
-          </a>
+          </Link>
 
-          <a
-            href="#Services"
+          <Link
+            href="/#Services"
             className="flex text-gray-600 hover:text-pink-500 cursor-pointer transition delay-150 hover:font-semibold hover:-translate-y-1 hover:scale-110"
           >
             Usługi
-          </a>
+          </Link>
 
-          <a
-            href="#Onas"
+          <Link
+            href="/#Onas"
             className="flex text-gray-600 hover:text-pink-500 cursor-pointer transition delay-150 hover:font-semibold hover:-translate-y-1 hover:scale-110"
           >
             O nas
-          </a>
+          </Link>
 
-          <a className="flex text-gray-600 hover:text-pink-500 cursor-pointer transition delay-150 hover:font-semibold hover:-translate-y-1 hover:scale-110">
+          <Link
+            href="/#"
+            className="flex text-gray-600 hover:text-pink-500 cursor-pointer transition delay-150 hover:font-semibold hover:-translate-y-1 hover:scale-110"
+          >
             Kontakt
-          </a>
+          </Link>
         </div>
       </nav>
     </div>
