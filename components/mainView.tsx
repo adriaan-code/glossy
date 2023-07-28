@@ -3,10 +3,11 @@ import bg from "../public/pattern.svg";
 import MainViewElement2 from "./MainViewElement2";
 import Services from "./Services";
 import AboutUs from "./AboutUs";
+import Contact from "./Contact";
 
 const MainView = () => {
   return (
-    <div className="w-full h-full absolute">
+    <div className="w-full h-full absolute text-neutral" id="glowna">
       <div
         className="relative w-full h-full flex items-center justify-center bg-no-repeat bg-cover bg-left bg-fixed"
         style={{
@@ -21,6 +22,7 @@ const MainView = () => {
       <MainViewElement2 />
       <Services />
       <AboutUs />
+      <Contact />
     </div>
   );
 };

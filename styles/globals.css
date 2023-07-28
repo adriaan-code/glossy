@@ -6,5 +6,6 @@
   html {
     @apply scroll-smooth;
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 }

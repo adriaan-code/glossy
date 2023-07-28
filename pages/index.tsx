@@ -3,9 +3,11 @@ import MainView from "@/components/mainView";
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <MainView />
-    </div>
+    <html className="scroll-smooth">
+      <div>
+        <Header />
+        <MainView />
+      </div>
+    </html>
   );
 }
