@@ -10,7 +10,7 @@ const Services = () => {
       <div className="flex items-center justify-center">
         <ul className="menu bg-white/80 w-fit rounded-box mt-6">
           <li>
-            <details open>
+            <details>
               <summary>PEELINGI CHEMICZNE+MASKA</summary>
               <ul>
                 <li>Peeling PRX T33 - 300 zł</li>
@@ -24,7 +24,7 @@ const Services = () => {
             </details>
           </li>
           <li>
-            <details open>
+            <details>
               <summary>KOSMETOLOGIA PIELĘGNACYJNA I ESTETYCZNA</summary>
               <ul>
                 <li>Peeling PRX T33 - 300 zł</li>
@@ -38,7 +38,7 @@ const Services = () => {
             </details>
           </li>
           <li>
-            <details open>
+            <details>
               <summary>STYLIZACJA PAZNOKCI</summary>
               <ul>
                 <li>Peeling PRX T33 - 300 zł</li>
@@ -52,7 +52,7 @@ const Services = () => {
             </details>
           </li>
           <li>
-            <details open>
+            <details>
               <summary>SYMULATORY TKANKOWE</summary>
               <ul>
                 <li>Profhilo - 900 zł</li>
@@ -62,7 +62,7 @@ const Services = () => {
             </details>
           </li>
           <li>
-            <details open>
+            <details>
               <summary>STYLIZACJA RZĘS</summary>
               <ul>
                 <li>Lifting/laminacja rzęs - 150 zł</li>
@@ -70,7 +70,7 @@ const Services = () => {
             </details>
           </li>
           <li>
-            <details open>
+            <details>
               <summary>STYLIZACJA BRWI</summary>
               <ul>
                 <li>Regulacja brwi z farbką - 60 zł</li>
@@ -80,7 +80,7 @@ const Services = () => {
             </details>
           </li>
           <li>
-            <details open>
+            <details>
               <summary>PEDICURE</summary>
               <ul>
                 <li>Pedicure kosmetyczny z odżywką - 120 zł</li>
